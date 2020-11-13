@@ -29,9 +29,9 @@ export interface SignUpParams {
 }
 
 export interface AuthCache {
-	setItem();
-	getItem();
-	removeItem();
+	setItem(): void;
+	getItem(): any;
+	removeItem(): void;
 }
 
 /**
